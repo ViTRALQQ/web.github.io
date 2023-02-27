@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap);
+
+body {
+  font-family: 'Archivo Black', sans-serif;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+
+h1 {
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 50px;
+}
+
+
+.st1,
+.st2 {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px auto;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.w{
+  position: fixed; 
+  
+      top: 20%;
+  
+      left: 29%;
+  
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #e33915;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+
+.btn:hover {
+  background-color: #ff5722;
+}
+
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+}
+
+
+img:active {
+  transform: scale(0.9);
+}
+
+
+img {
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  border-radius: 50%;
+  transition: transform 0.3s ease;
+  margin-right: 20px;
+}
+
+
+.st1 p,
+.st2 p {
+  margin-left: 20px;
+}
+
+
+.st2 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+@media screen and (max-width: 391px) {
+  .st1{
+    width: 220px;
+    margin-left: -30px;
+    
+  }
+  .st2{
+    width: 220px;
+    margin-left: -30px;
+  }
+  img{
+    width: 50px;
+    height: 30px;
+  }
+   
+  
+}

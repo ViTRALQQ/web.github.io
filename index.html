@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="..img/stone.png" type="image/x-icon">
+</head>
+
+<body>
+    <center>
+        <div class="w">
+        <div class="st1">
+            <p>Robot choose: <span id="robot-choice"></span></p>
+            <p>Human score: <span id="human-score">0</span></p>
+            <p>Robot score: <span id="robot-score">0</span></p>
+        </div>
+        <div class="st2">
+            <p>Human choose:</p>
+            <img src="../img/stone.png" alt="Stone" onclick="play('stone')">
+            <img src="../img/scissors.png" alt="Scissors" onclick="play('scissors')">
+            <img src="../img/paper.png" alt="Paper" onclick="play('paper')">
+        </div>
+    </div>
+    </center>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
